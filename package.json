@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "git checkout database.sqlite; ./node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "sequelize": "^5.7.6",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "frisby": "^2.1.1",
+    "jest": "^24.7.1"
+  }
+}
