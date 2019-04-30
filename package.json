@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "node app.js",
     "test": "git checkout database.sqlite; ./node_modules/jest/bin/jest.js"
   },
   "dependencies": {
