@@ -196,7 +196,7 @@ app.get('/api/bloomingperiods/:id', function(request, response) {
     include: [Flower]
   }).then((bloomingperiod) => {
     if (bloomingperiod) {
-      response.json(scent);
+      response.json(bloomingperiod);
     } else {
       response.status(404).send();
     }
